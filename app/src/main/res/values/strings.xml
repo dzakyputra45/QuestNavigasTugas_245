@@ -10,9 +10,9 @@
     <string name="home">Form Isian</string>
 
     <string-array name="data_peserta">
-        <item>Nama Lengkap: Aprilia Karunianti</item>
-        <item>Jenis Kelamin: Perempuan</item>
+        <item>Nama Lengkap: Lamine Yamal</item>
+        <item>Jenis Kelamin: Laki Laki</item>
         <item>Status Perkawinan: Lajang</item>
-        <item>Alamat: Sleman</item>
+        <item>Alamat: Barcelona</item>
     </string-array>
 </resources>
