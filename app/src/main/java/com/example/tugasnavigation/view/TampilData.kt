@@ -31,6 +31,14 @@ fun TampilData(navController: NavHostController) {
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Text(
+                text = "List Daftar Peserta",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
         }
     }
 }
