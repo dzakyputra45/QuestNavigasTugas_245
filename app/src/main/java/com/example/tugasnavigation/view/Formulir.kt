@@ -154,9 +154,9 @@ fun Formulir(navController : NavHostController) {
                     .fillMaxWidth()
                     .height(50.dp),
                 shape = RoundedCornerShape(10.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.DarkGray)
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Gray)
             ) {
-                Text("Submit", fontSize = 18.sp, color = Color.White)
+                Text("Submit", fontSize = 18.sp, color = Color.Black)
             }
         }
     }
