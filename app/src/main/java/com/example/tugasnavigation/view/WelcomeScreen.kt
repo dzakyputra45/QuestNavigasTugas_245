@@ -21,20 +21,20 @@ fun WelcomeScreen(navController: NavHostController) {
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Selamat Datang", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+            Text("Selamat Datang", fontSize = 30.sp, fontWeight = FontWeight.Bold)
 
             Spacer(modifier = Modifier.height(24.dp))
 
             Image(
                 painter = painterResource(id = R.drawable.cardlist_logo),
                 contentDescription = "Logo",
-                modifier = Modifier.size(150.dp)
+                modifier = Modifier.size(200.dp)
             )
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            Text("Dzaky Putra Pratama", fontSize = 18.sp)
-            Text("20250140245", fontSize = 14.sp,
+            Text("Dzaky Putra Pratama", fontSize = 25.sp)
+            Text("20250140245", fontSize = 23.sp,
                 color = MaterialTheme.colorScheme.secondary)
 
             Spacer(modifier = Modifier.height(32.dp))
