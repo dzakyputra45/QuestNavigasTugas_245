@@ -23,5 +23,15 @@ fun TampilData(navController: NavHostController) {
         colors = listOf(Color(0xFFBB86FC), Color(0xFFEFB8C8))
     )
 
-
+    Surface(modifier = Modifier.fillMaxSize()) {
+        Column(
+            modifier = Modifier
+                .background(gradient)
+                .fillMaxSize()
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+        }
+    }
 }
+
