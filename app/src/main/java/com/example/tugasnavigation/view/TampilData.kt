@@ -53,6 +53,15 @@ fun TampilData(navController: NavHostController) {
                     }
                 }
             }
+
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Button(
+                onClick = { navController.navigate("welcome") },
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 32.dp)
+            ) {
+                Text("Beranda")
+            }
         }
     }
 }
