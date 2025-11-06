@@ -41,7 +41,7 @@ fun WelcomeScreen(navController: NavHostController) {
 
             Button(
                 onClick = { navController.navigate("listPeserta") },
-                modifier = Modifier.fillMaxWidth(0.7f).height(50.dp)
+                modifier = Modifier.fillMaxWidth(0.7f).height(70.dp)
             ) {
                 Text("Submit")
             }
