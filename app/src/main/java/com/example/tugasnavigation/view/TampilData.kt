@@ -62,6 +62,16 @@ fun TampilData(navController: NavHostController) {
             ) {
                 Text("Beranda")
             }
+
+            Spacer(modifier = Modifier.height(12.dp))
+
+            Button(
+                onClick = { navController.navigate("formulir") },
+                colors = ButtonDefaults.buttonColors(containerColor = Color.White),
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 32.dp)
+            ) {
+                Text("Formulir Pendaftaran", color = Color(0xFF6200EE))
+            }
         }
     }
 }
