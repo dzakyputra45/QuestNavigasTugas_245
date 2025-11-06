@@ -42,7 +42,7 @@ fun Formulir(navController : NavHostController) {
         ) {
             Text(
                 text = "Formulir Pendaftaran",
-                color = Color.White,
+                color = Color.Black,
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier
