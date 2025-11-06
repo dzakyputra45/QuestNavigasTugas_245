@@ -20,7 +20,7 @@ import com.example.tugasnavigation.R
 fun TampilData(navController: NavHostController) {
     val pesertaList = stringArrayResource(id = R.array.data_peserta)
     val gradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFFBB86FC), Color(0xFFEFB8C8))
+        colors = listOf(Color(0xFF313647), Color(0xFF1A3D64))
     )
 
     Surface(modifier = Modifier.fillMaxSize()) {
